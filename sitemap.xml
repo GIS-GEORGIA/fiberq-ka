@@ -1,67 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/glossary/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/glossary/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/glossary/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/journal/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/journal/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/journal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/journal/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/data-model/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/data-model/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/data-model/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/toolbar/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/toolbar/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/toolbar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/toolbar/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/validation/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/fiberq/validation/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/validation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/validation/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/architecture/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/architecture/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/architecture/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/cables/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/cables/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/cables/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/cables/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/civil/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/civil/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/civil/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/civil/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/elements/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/elements/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/elements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/elements/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/network/slack/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/network/slack/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/slack/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/slack/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/batches/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/batches/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/batches/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/batches/"/>
     </url>
     <url>
-         <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/rules/</loc>
-         <lastmod>2026-09-10</lastmod>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/translation/rules/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/rules/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/glossary/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/glossary/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/journal/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/journal/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/journal/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/data-model/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/data-model/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/toolbar/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/toolbar/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/toolbar/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/validation/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/fiberq/validation/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/fiberq/validation/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/architecture/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/architecture/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/cables/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/cables/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/cables/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/civil/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/civil/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/civil/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/elements/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/elements/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/elements/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/network/slack/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/network/slack/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/network/slack/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/translation/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/translation/batches/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/batches/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/batches/"/>
+    </url>
+    <url>
+        <loc>https://kapo-toolkits.github.io/fiberq-ka/en/translation/rules/</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ka" href="https://kapo-toolkits.github.io/fiberq-ka/translation/rules/"/>
     </url>
 </urlset>

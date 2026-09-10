@@ -1,0 +1,2514 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Fibre network design in QGIS — study notes, terminology and the Georgian translation of the FiberQ plugin">
+      
+      
+        <meta name="author" content="Giorgi Kapanadze">
+      
+      
+        <link rel="canonical" href="https://kapo-toolkits.github.io/fiberq-ka/en/glossary/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../network/">
+      
+      
+        
+          <link rel="alternate" href="../../glossary/" hreflang="ka">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Glossary - FiberQ in Georgian</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#english--georgian-glossary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="FiberQ in Georgian" class="md-header__button md-logo" aria-label="FiberQ in Georgian" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 11h-3.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H6c-.33 0-2-.1-2-2V8c0-1.83 1.54-2 2-2h10.18C16.6 7.16 17.7 8 19 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-1.3 0-2.4.84-2.82 2H6C4.39 4 2 5.06 2 8v1c0 2.94 2.39 4 4 4h3.18c.42 1.16 1.52 2 2.82 2s2.4-.84 2.82-2H18c.33 0 2 .1 2 2v1c0 1.83-1.54 2-2 2H7.82C7.4 16.84 6.3 16 5 16a3 3 0 0 0-3 3 3 3 0 0 0 3 3c1.3 0 2.4-.84 2.82-2H18c1.61 0 4-1.07 4-4v-1c0-2.93-2.39-4-4-4m1-7a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1M5 20a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FiberQ in Georgian
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Glossary
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="მუქ თემაზე გადართვა"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="მუქ თემაზე გადართვა" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="ღია თემაზე გადართვა"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="ღია თემაზე გადართვა" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../glossary/" hreflang="ka" class="md-select__link">
+              ქართული
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kapo-Toolkits/fiberq-ka
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../network/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Network
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../fiberq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FiberQ
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../translation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Translation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../journal/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Journal
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="FiberQ in Georgian" class="md-nav__button md-logo" aria-label="FiberQ in Georgian" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 11h-3.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H6c-.33 0-2-.1-2-2V8c0-1.83 1.54-2 2-2h10.18C16.6 7.16 17.7 8 19 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-1.3 0-2.4.84-2.82 2H6C4.39 4 2 5.06 2 8v1c0 2.94 2.39 4 4 4h3.18c.42 1.16 1.52 2 2.82 2s2.4-.84 2.82-2H18c.33 0 2 .1 2 2v1c0 1.83-1.54 2-2 2H7.82C7.4 16.84 6.3 16 5 16a3 3 0 0 0-3 3 3 3 0 0 0 3 3c1.3 0 2.4-.84 2.82-2H18c1.61 0 4-1.07 4-4v-1c0-2.93-2.39-4-4-4m1-7a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1M5 20a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1"/></svg>
+
+    </a>
+    FiberQ in Georgian
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kapo-Toolkits/fiberq-ka
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#georgian-specific-conventions-applied-throughout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Georgian-specific conventions applied throughout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-structures-and-civil-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Structures and civil works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-cables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Cables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-splicing-and-slack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Splicing and slack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-network-elements-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Network elements (equipment)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-network-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Network architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-buildings--the-object-trap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Buildings — the Object trap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-cad-drawings-and-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. CAD drawings and images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Selection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-gis-and-qgis-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. GIS and QGIS vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-validation-reporting-and-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Validation, reporting and checks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-validation-engine-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Validation engine vocabulary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Validation engine vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-and-schema-names--never-translated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column and schema names — never translated
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions-for-the-maintainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open questions for the maintainer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-issues-noticed-while-preparing-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation issues noticed while preparing this
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../network/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Network
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/elements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/cables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/civil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Civil works
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/slack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optical slack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../fiberq/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FiberQ
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FiberQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fiberq/toolbar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toolbar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fiberq/validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fiberq/data-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../translation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Translation
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Translation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The three rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/batches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batches and progress
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../journal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Journal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#georgian-specific-conventions-applied-throughout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Georgian-specific conventions applied throughout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-structures-and-civil-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Structures and civil works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-cables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Cables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-splicing-and-slack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Splicing and slack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-network-elements-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Network elements (equipment)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-network-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Network architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-buildings--the-object-trap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Buildings — the Object trap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-cad-drawings-and-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. CAD drawings and images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Selection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-gis-and-qgis-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. GIS and QGIS vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-validation-reporting-and-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Validation, reporting and checks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-validation-engine-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Validation engine vocabulary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Validation engine vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-and-schema-names--never-translated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column and schema names — never translated
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions-for-the-maintainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open questions for the maintainer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-issues-noticed-while-preparing-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation issues noticed while preparing this
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/kapo-Toolkits/fiberq-ka/edit/main/docs/glossary.en.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="english--georgian-glossary">English → Georgian glossary<a class="headerlink" href="#english--georgian-glossary" title="Permanent link">¶</a></h1>
+<p>The terminology reference behind the Georgian translation of FiberQ — about 140 terms
+across structures, cables, splicing and slack, elements, network architecture, buildings,
+CAD drawings, selection, GIS vocabulary and the validation engine.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Provenance</p>
+<p>Structured to mirror the English → French and English → Serbian glossaries in
+FiberQ's own <code>CONTRIBUTING.md</code>, and offered upstream in
+<a href="https://github.com/vukovicvl/fiberq/issues/43">issue #43</a>.</p>
+<p>Definitions come from the maintainer's <code>&lt;extracomment&gt;</code> notes in the catalogue, from
+established Georgian engineering and utility vocabulary, and from the existing QGIS
+Georgian UI translation. The author is <strong>not</strong> a fibre practitioner — a terminology
+review by one would be welcome.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Canonical copy</p>
+<p>The version submitted upstream lives at
+<a href="https://github.com/kapo-Toolkits/fiberq-ka/blob/main/GLOSSARY-ka.md"><code>GLOSSARY-ka.md</code></a>
+in the repository root. This page is generated from it, so edit that file rather than
+this one.</p>
+</div>
+<hr />
+<h2 id="georgian-specific-conventions-applied-throughout">Georgian-specific conventions applied throughout<a class="headerlink" href="#georgian-specific-conventions-applied-throughout" title="Permanent link">¶</a></h2>
+<p>These are decisions taken once and applied to every entry below, so they are not
+repeated term by term.</p>
+<table>
+<thead>
+<tr>
+<th>Convention</th>
+<th>Decision</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Capitalisation</strong></td>
+<td>Georgian has no letter case. English Title Case is not reproduced.</td>
+<td><code>Place Pole</code> → <code>ბოძის განთავსება</code>, not an imitation of the capitals.</td>
+</tr>
+<tr>
+<td><strong>Imperative menu entries</strong></td>
+<td>Rendered as a verbal noun (<code>-ება</code> / <code>-ვა</code>), not a true imperative.</td>
+<td>Georgian UI convention (and QGIS's own Georgian translation): <code>ბოძის განთავსება</code>, not <code>განათავსე ბოძი</code>.</td>
+</tr>
+<tr>
+<td><strong>Latin acronyms</strong></td>
+<td><code>ODF</code>, <code>OTB</code>, <code>TO</code>, <code>TB</code>, <code>PE</code>, <code>DWG</code>, <code>DXF</code>, <code>GPKG</code>, <code>KML</code>, <code>GPX</code>, <code>CRS</code>, <code>BOM</code>, <code>PostGIS</code>, <code>GeoPackage</code>, <code>XLSX</code>, <code>CSV</code>, <code>JSON</code> stay in Latin script. Only the descriptive part around them is translated.</td>
+<td>Georgian fibre and GIS practice uses these acronyms in Latin; transliterating them (<code>ოდიეფი</code>) would be unreadable to the target user.</td>
+</tr>
+<tr>
+<td><strong>Adjective + acronym</strong></td>
+<td>The adjective is translated and precedes the acronym: <code>Indoor OTB</code> → <code>შიდა OTB</code>.</td>
+<td>Matches Georgian word order and keeps the acronym intact.</td>
+</tr>
+<tr>
+<td><strong>Plural forms</strong></td>
+<td>Georgian has one plural form in Qt/CLDR. Every <code>%n</code> message shows a single <code>&lt;numerusform&gt;</code> in Qt Linguist.</td>
+<td>No <code>%n</code> message needs two variants, unlike French.</td>
+</tr>
+<tr>
+<td><strong>Placeholders and case endings</strong></td>
+<td>Case suffixes attach <em>outside</em> the braces: <code>'{layer}'-ში</code>, <code>{path}-ზე</code>, <code>{count}-მა</code>.</td>
+<td>Keeps the placeholder byte-identical (Rule 2) while letting the sentence decline naturally. This is the most frequent trap in Georgian.</td>
+</tr>
+<tr>
+<td><strong>Toolbar-width strings</strong></td>
+<td>Group labels reused 3–4× (<code>Cable laying</code>, <code>Drawings</code>, <code>Ducting</code>, <code>Routing</code>, <code>Selection</code>, <code>Drawing object</code>, <code>Placing elements</code>) are kept to one or two words.</td>
+<td>One translation must serve a menu title, a button caption, a tooltip and a status tip.</td>
+</tr>
+<tr>
+<td><strong>GIS vocabulary</strong></td>
+<td>Follows the existing QGIS Georgian UI translation rather than inventing new terms.</td>
+<td>A user runs FiberQ inside QGIS; two vocabularies for <code>layer</code> would be worse than an imperfect single one.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="1-structures-and-civil-works">1. Structures and civil works<a class="headerlink" href="#1-structures-and-civil-works" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pole</td>
+<td><strong>ბოძი</strong></td>
+<td>The support carrying aerial cable. One word for both <code>Place Pole</code> (quick toolbar) and <code>Add pole</code> (Routing menu) — the English differs, the object does not.</td>
+</tr>
+<tr>
+<td>Manhole</td>
+<td><strong>საკაბელო ჭა</strong> <em>(short form: </em><em>ჭა</em><em>)</em></td>
+<td>The underground inspection chamber on a duct run. <strong>Not</strong> <code>ლუქი</code> — that is only the cover. <strong>Decided</strong> (translator, 2026-09-09). Field Georgian also uses the Russianism <code>კოლოდეცი</code>; <code>საკაბელო ჭა</code> is proposed as the written-document term.</td>
+</tr>
+<tr>
+<td>Duct / PE pipe</td>
+<td><strong>მილი</strong> <em>(as a menu entry: </em><em>PE მილი</em><em>)</em></td>
+<td>The buried distribution duct (Ø 40 mm). The English says <code>pipe</code> in one place and <code>duct</code> everywhere else — Georgian uses the single word <code>მილი</code> for both, per the translator note.</td>
+</tr>
+<tr>
+<td>Transition pipe</td>
+<td><strong>გადასასვლელის მილი</strong></td>
+<td>The large protective casing (Ø 110 mm) laid where the route crosses under a road, railway or watercourse; the smaller PE ducts are pulled through it. <strong>Not</strong> an adapter between two pipe sizes. <strong>Decided</strong>; alternative <code>დამცავი მილი</code> (protective pipe) rejected — it loses the "crossing" sense the legacy term <code>prelaz</code> carries.</td>
+</tr>
+<tr>
+<td>Ducting</td>
+<td><strong>მილგაყვანილობა</strong></td>
+<td>Noun naming the whole duct infrastructure (manholes + ducts). Toolbar group label.</td>
+</tr>
+<tr>
+<td>Trench</td>
+<td><strong>თხრილი</strong></td>
+<td>Not currently a UI string; listed for consistency in future work.</td>
+</tr>
+<tr>
+<td>Route</td>
+<td><strong>ტრასა</strong></td>
+<td>The <strong>physical path on the ground</strong> that cables follow. <strong>Critically not <code>მარშრუტი</code></strong>, which in Georgian means a travel/transport route. <code>ტრასა</code> is the established Georgian engineering term for an alignment and is what a surveyor says. Also not a file path or a network path.</td>
+</tr>
+<tr>
+<td>Routing</td>
+<td><strong>ტრასირება</strong></td>
+<td>Noun naming the group of route tools. The engineering act of setting out an alignment.</td>
+</tr>
+<tr>
+<td>Breakpoint</td>
+<td><strong>გაყოფის წერტილი</strong></td>
+<td>A <strong>route geometry</strong> operation: splits one route line into two at the clicked point. <strong>Not</strong> a fibre fault. Deliberately avoids <code>წყვეტა</code> (break/rupture), which would collide with <code>Fiber break</code> below.</td>
+</tr>
+<tr>
+<td>Span</td>
+<td><strong>მალი</strong></td>
+<td>The run between two supports. Standard Georgian engineering term. Not a bridge span.</td>
+</tr>
+<tr>
+<td>Infrastructure</td>
+<td><strong>ინფრასტრუქტურა</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-cables">2. Cables<a class="headerlink" href="#2-cables" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cable</td>
+<td><strong>კაბელი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Cable laying</td>
+<td><strong>კაბელის გაყვანა</strong></td>
+<td>Gerund: the act of installing optical cable on the map. Reused 4× (menu title + button label + tooltip + status tip), so it must stay this short.</td>
+</tr>
+<tr>
+<td>Underground</td>
+<td><strong>მიწისქვეშა</strong></td>
+<td>Adjective: laid in ducts or a trench. Pairs with <code>საჰაერო</code>.</td>
+</tr>
+<tr>
+<td>Aerial</td>
+<td><strong>საჰაერო</strong></td>
+<td>Adjective: strung overhead on poles. <code>საჰაერო ხაზი</code> (overhead line) is the standard Georgian collocation.</td>
+</tr>
+<tr>
+<td>Backbone</td>
+<td><strong>მაგისტრალი</strong> <em>(the network: </em><em>მაგისტრალური ქსელი</em><em>; as a cable class in menus: </em><em>მაგისტრალური</em><em>)</em></td>
+<td>The transport/feeder cable between main network nodes. <strong>Decided.</strong> <code>მაგისტრალი</code> is the noun for the concept; the menu entry uses the derived adjective <code>მაგისტრალური</code> so the three cable classes read as a parallel set — <code>მაგისტრალური / გამანაწილებელი / აბონენტური</code> — under both <code>მიწისქვეშა</code> and <code>საჰაერო</code>.</td>
+</tr>
+<tr>
+<td>Distribution</td>
+<td><strong>გამანაწილებელი</strong></td>
+<td>Cable class: from a backbone node out to the street distribution points. Same adjective the Georgian power sector uses for distribution networks.</td>
+</tr>
+<tr>
+<td>Drop</td>
+<td><strong>აბონენტური</strong></td>
+<td>Cable class, a <strong>noun</strong> in English (drop cable / subscriber cable): the final span from the street distribution point to one subscriber's premises. <strong>Never the verb "to drop"</strong> (<code>ჩამოგდება</code> would be badly wrong). Rendered as an adjective so the menu reads <code>მაგისტრალური / გამანაწილებელი / აბონენტური</code> — three parallel entries under both <code>მიწისქვეშა</code> and <code>საჰაერო</code>. <strong>Decided</strong>; alternative <code>აბონენტის</code> (genitive) rejected — it breaks the parallel adjectival set.</td>
+</tr>
+<tr>
+<td>Fiber / optical fiber</td>
+<td><strong>ოპტიკური ბოჭკო</strong> <em>(short: </em><em>ბოჭკო</em><em>)</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Optical</td>
+<td><strong>ოპტიკური</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Fiber break</td>
+<td><strong>ბოჭკოს გაწყვეტა</strong></td>
+<td>A fibre fault location — a real network defect. Kept lexically distinct from <code>Breakpoint</code> above, which is a geometry edit.</td>
+</tr>
+<tr>
+<td>Capacity</td>
+<td><strong>ტევადობა</strong></td>
+<td>Fibre count / duct count.</td>
+</tr>
+<tr>
+<td>Cutting / Cut infrastructure</td>
+<td><strong>ჭრა</strong> / <strong>ინფრასტრუქტურის ჭრა</strong></td>
+<td>The tool that cuts a line feature at a clicked point.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-splicing-and-slack">3. Splicing and slack<a class="headerlink" href="#3-splicing-and-slack" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Joint closure</td>
+<td><strong>ოპტიკური მუფტა</strong> <em>(short: </em><em>მუფტა</em><em>)</em></td>
+<td>The splice enclosure (fr <code>BPE</code>, sr <code>nastavak</code>). <code>მუფტა</code> is the universally used term in Georgian cable practice.</td>
+</tr>
+<tr>
+<td>Splice</td>
+<td><strong>შედუღება</strong></td>
+<td>The fusion weld between two fibres. Corresponds to the French <code>soudure</code>.</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td><strong>მარაგი</strong></td>
+<td>The spare length of cable coiled and stored at a point so it can be re-spliced later. <code>მარაგი</code> = reserve/stock, matching the Russian/Georgian field usage <code>запас</code>.</td>
+</tr>
+<tr>
+<td>Optical slack(s)</td>
+<td><strong>ოპტიკური მარაგი</strong> / <strong>ოპტიკური მარაგები</strong></td>
+<td>Singular on the quick-toolbar button, plural for the tool group and the map layer — the English makes the same distinction.</td>
+</tr>
+<tr>
+<td>Terminal slack</td>
+<td><strong>საბოლოო მარაგი</strong> <em>(explanatory form: </em><em>საბოლოო წერტილის მარაგი</em><em>)</em></td>
+<td>Slack at a cable <strong>end</strong> (legacy <code>end slack</code>, internally <code>zavrsna</code>, drawn as a C coil). <strong>Decided.</strong> The short form is used in UI strings; the longer <code>საბოლოო წერტილის მარაგი</code> is available where a sentence needs to be unambiguous. Stays clearly distinct from <code>შუალედური მარაგი</code>.</td>
+</tr>
+<tr>
+<td>Mid span slack</td>
+<td><strong>შუალედური მარაგი</strong></td>
+<td>Slack at an intermediate point where the cable runs <strong>through</strong> without being cut (legacy <code>thru slack</code>, internally <code>prolazna</code>, drawn as an S coil). Must remain clearly distinct from terminal slack — one word cannot serve both. <strong>Decided</strong>; alternative <code>გამავალი მარაგი</code> (through slack) rejected, though it is closer to the legacy name.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-network-elements-equipment">4. Network elements (equipment)<a class="headerlink" href="#4-network-elements-equipment" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Element / network element</td>
+<td><strong>ელემენტი</strong> / <strong>ქსელის ელემენტი</strong></td>
+<td>The passive optical devices (ODF, OTB, TO …), not map features in general.</td>
+</tr>
+<tr>
+<td>Placing elements</td>
+<td><strong>ელემენტების განთავსება</strong></td>
+<td>Gerund naming the whole drop-down group. Reused as label + tooltip + status tip.</td>
+</tr>
+<tr>
+<td>ODF</td>
+<td><strong>ODF</strong></td>
+<td>Optical Distribution Frame: the passive frame at the head end where feeder fibres terminate. Acronym kept — it also doubles as the layer name.</td>
+</tr>
+<tr>
+<td>TB</td>
+<td><strong>TB</strong></td>
+<td>Terminal Box. Acronym kept; Georgian has no established equivalent.</td>
+</tr>
+<tr>
+<td>OTB</td>
+<td><strong>OTB</strong></td>
+<td>Optical Termination Box. Acronym kept.</td>
+</tr>
+<tr>
+<td>TO</td>
+<td><strong>TO</strong></td>
+<td>Termination Outlet — the subscriber-side optical outlet, the last element before the customer's equipment. <strong>Warning: this is an acronym, not the English preposition "to".</strong></td>
+</tr>
+<tr>
+<td>Patch panel</td>
+<td><strong>პაჩ-პანელი</strong></td>
+<td>The rack panel holding patch connections. Must stay clearly distinct from <code>ODF</code>, whose scope overlaps. <strong>Decided</strong>; alternative <code>კომუტაციური პანელი</code> rejected as more formal but less recognised in the field.</td>
+</tr>
+<tr>
+<td>Indoor (OTB / TO)</td>
+<td><strong>შიდა</strong></td>
+<td>Adjective: mounted inside a building. → <code>შიდა OTB</code>, <code>შიდა TO</code>.</td>
+</tr>
+<tr>
+<td>Outdoor (OTB / TO)</td>
+<td><strong>გარე</strong></td>
+<td>Adjective: mounted outside, on a wall or façade. → <code>გარე OTB</code>, <code>გარე TO</code>.</td>
+</tr>
+<tr>
+<td>Pole (OTB / TO)</td>
+<td><strong>ბოძის</strong></td>
+<td>Adjective: mounted <strong>on</strong> a pole. One element, not a pole plus a box. → <code>ბოძის OTB</code>, <code>ბოძის TO</code>.</td>
+</tr>
+<tr>
+<td>Joint Closure TO</td>
+<td><strong>TO მუფტაში</strong></td>
+<td>A TO housed <strong>inside</strong> a joint closure. Matches the Serbian <code>TO Izvod u nastavku</code>. One element, not two.</td>
+</tr>
+<tr>
+<td>Change element type</td>
+<td><strong>ელემენტის ტიპის შეცვლა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Move elements</td>
+<td><strong>ელემენტების გადატანა</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-network-architecture">5. Network architecture<a class="headerlink" href="#5-network-architecture" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Network</td>
+<td><strong>ქსელი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Service Area</td>
+<td><strong>მომსახურების ზონა</strong></td>
+<td>The coverage polygon, created as a buffer around selected cables/elements or drawn by hand. <strong>Decided</strong>; alternative <code>სერვის-ზონა</code> rejected — shorter and common in telecom marketing, but less precise.</td>
+</tr>
+<tr>
+<td>Branch</td>
+<td><strong>განშტოება</strong></td>
+<td><code>Branch info</code> shows how many cables/types/capacities pass a clicked point.</td>
+</tr>
+<tr>
+<td>Relations</td>
+<td><strong>კავშირები</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Latent element</td>
+<td><strong>შუალედური ელემენტი</strong></td>
+<td>A passive optical element (joint closure, ODF, OTB, termination box) recorded <em>on</em> a cable's path at a distance along it, between its two endpoints — data, not a separate drawn feature. "Latent" = intermediate/pass-through, <strong>not</strong> faulty or dormant. Shares <code>შუალედური</code> with <code>შუალედური მარაგი</code> (mid-span slack) deliberately: both are things recorded at an intermediate point along a cable.</td>
+</tr>
+<tr>
+<td>Relation <em>(optical)</em></td>
+<td><strong>ოპტიკური კავშირი</strong> <strong>(to confirm)</strong></td>
+<td>A named end-to-end optical link between two sites, that cables are assigned to. <strong>Not</strong> a QGIS layer relation (<code>ურთიერთკავშირი</code>). Alternative worth a practitioner's view: <code>ოპტიკური მიმართულება</code>.</td>
+</tr>
+<tr>
+<td>Colour code <em>(fibre)</em></td>
+<td><strong>ბოჭკოს ფერთა კოდი</strong></td>
+<td>The standard sequence of colours identifying each tube and each fibre in a cable (TIA-598 / IEC). <strong>Not</strong> a QGIS symbology palette — <code>ფერების კატალოგი</code> was rejected for inviting exactly that misreading.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-buildings--the-object-trap">6. Buildings — the <code>Object</code> trap<a class="headerlink" href="#6-buildings--the-object-trap" title="Permanent link">¶</a></h2>
+<blockquote>
+<p><strong>This is the single most important entry in the glossary.</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Object</td>
+<td><strong>შენობა</strong></td>
+<td>Throughout FiberQ, <code>Object</code> renders the legacy Serbian <code>objekat</code> = <strong>building / premises</strong>. Confirmed by the layer it writes to, whose fields are number of floors, basement levels, street and house number. It must <strong>never</strong> be translated as <code>ობიექტი</code>.</td>
+</tr>
+<tr>
+<td>Objects</td>
+<td><strong>შენობები</strong></td>
+<td>Plural, used as a message-box title for the same concept.</td>
+</tr>
+<tr>
+<td>Object in 3 points</td>
+<td><strong>შენობა 3 წერტილით</strong></td>
+<td>Footprint drawn from 3 clicked points; the 4th corner is derived.</td>
+</tr>
+<tr>
+<td>Object in N points</td>
+<td><strong>შენობა N წერტილით</strong></td>
+<td><code>N</code> kept as the Latin letter — it is the mathematical placeholder for "any number".</td>
+</tr>
+<tr>
+<td>Object in N points (90°)</td>
+<td><strong>შენობა N წერტილით (90°)</strong></td>
+<td>Every corner forced to a right angle. Keep the <code>90</code> and the degree sign.</td>
+</tr>
+<tr>
+<td>Digitized object (from selection)</td>
+<td><strong>დიგიტალიზებული შენობა (მონიშნულიდან)</strong></td>
+<td>Turns a polygon already selected in another layer into a FiberQ building.</td>
+</tr>
+<tr>
+<td>Drawing object</td>
+<td><strong>შენობის დახაზვა</strong></td>
+<td>Toolbar group label (icon-only button, hover text). It means <em>drawing a building</em>, i.e. digitising a footprint. It does <strong>not</strong> mean a CAD drawing — see §7.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>The clash to be aware of:</strong> Georgian QGIS translates the GIS term <strong>feature</strong> as
+<code>ობიექტი</code>. FiberQ's <strong>Object</strong> is a <em>building</em>. So in the Georgian catalogue:
+<code>Feature</code> → <code>ობიექტი</code>, <code>Object</code> → <code>შენობა</code>. This is correct but counter-intuitive
+and is the easiest way to ruin the translation by autopilot.</p>
+</blockquote>
+<h2 id="7-cad-drawings-and-images">7. CAD drawings and images<a class="headerlink" href="#7-cad-drawings-and-images" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drawings</td>
+<td><strong>ნახაზები</strong></td>
+<td>Plural noun: external CAD files (DWG/DXF) <strong>linked</strong> to map elements — documents, not something drawn in QGIS. Reused 4×, so it must stay one word.</td>
+</tr>
+<tr>
+<td>Add drawing…</td>
+<td><strong>ნახაზის დამატება…</strong></td>
+<td>Attaches an existing CAD file to the selected element(s). The trailing <code>…</code> (U+2026) is Qt's "opens a dialog" convention — kept.</td>
+</tr>
+<tr>
+<td>Link</td>
+<td><strong>მიბმა</strong></td>
+<td>Attach a file to an element.</td>
+</tr>
+<tr>
+<td>Unlink / Clear … from</td>
+<td><strong>მიბმის მოხსნა</strong></td>
+<td>Removes only the <strong>link</strong>. Neither the file on disk nor the element is deleted — the Georgian must make that unmistakable.</td>
+</tr>
+<tr>
+<td>DWG / DXF</td>
+<td><strong>DWG / DXF</strong></td>
+<td>AutoCAD file formats, kept as-is.</td>
+</tr>
+<tr>
+<td>Image / picture</td>
+<td><strong>სურათი</strong></td>
+<td>The English uses both <code>image</code> and <code>picture</code> for the same thing; Georgian uses one word.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-selection">8. Selection<a class="headerlink" href="#8-selection" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>What it means in FiberQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selection</td>
+<td><strong>მონიშვნა</strong></td>
+<td>Noun naming the tool group. Toolbar-width.</td>
+</tr>
+<tr>
+<td>Smart selection</td>
+<td><strong>ჭკვიანი მონიშვნა</strong></td>
+<td>Click-to-toggle across several layers at once, without changing the active layer.</td>
+</tr>
+<tr>
+<td>Smart selection (Multiple Layers)</td>
+<td><strong>ჭკვიანი მონიშვნა (რამდენიმე შრე)</strong></td>
+<td>Brackets kept.</td>
+</tr>
+<tr>
+<td>Select / deselect</td>
+<td><strong>მონიშვნა</strong> / <strong>მონიშვნის მოხსნა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Clear selection</td>
+<td><strong>მონიშვნის მოხსნა</strong></td>
+<td><strong>Non-destructive</strong> — removes the highlight, deletes nothing.</td>
+</tr>
+<tr>
+<td>Delete selected</td>
+<td><strong>მონიშნულის წაშლა</strong></td>
+<td><strong>Destructive</strong> — permanently deletes the selected features from every editable layer. Sits directly above <code>Clear selection</code> in the menu, so the two Georgian strings must not be confusable. <code>მოხსნა</code> (remove/lift) vs <code>წაშლა</code> (delete) carries that difference clearly.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="9-gis-and-qgis-vocabulary">9. GIS and QGIS vocabulary<a class="headerlink" href="#9-gis-and-qgis-vocabulary" title="Permanent link">¶</a></h2>
+<p>Follows the existing QGIS Georgian UI translation.</p>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Layer</td>
+<td><strong>შრე</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Vector layer</td>
+<td><strong>ვექტორული შრე</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Feature</td>
+<td><strong>ობიექტი</strong></td>
+<td>See the warning in §6.</td>
+</tr>
+<tr>
+<td>Geometry</td>
+<td><strong>გეომეტრია</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Polygon</td>
+<td><strong>პოლიგონი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Vertex</td>
+<td><strong>წვერო</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Attribute</td>
+<td><strong>ატრიბუტი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Field</td>
+<td><strong>ველი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Value</td>
+<td><strong>მნიშვნელობა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Project</td>
+<td><strong>პროექტი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>CRS / coordinate reference system</td>
+<td><strong>CRS</strong> / <strong>კოორდინატთა სისტემა</strong></td>
+<td>Acronym where the string is tight (table headers), full form in explanatory sentences.</td>
+</tr>
+<tr>
+<td>Geographic CRS</td>
+<td><strong>გეოგრაფიული CRS</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Projected CRS</td>
+<td><strong>პროექციული CRS</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Reproject</td>
+<td><strong>რეპროექცია</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Ellipsoid</td>
+<td><strong>ელიფსოიდი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Tolerance</td>
+<td><strong>დაშვება</strong></td>
+<td>The snapping tolerance in the connectivity rules.</td>
+</tr>
+<tr>
+<td>Snapping</td>
+<td><strong>მიბმა</strong></td>
+<td>Same word as "link" in §7; contexts do not overlap.</td>
+</tr>
+<tr>
+<td>Length</td>
+<td><strong>სიგრძე</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Stored length</td>
+<td><strong>შენახული სიგრძე</strong></td>
+<td>The attribute value, as opposed to the length measured from the drawn geometry.</td>
+</tr>
+<tr>
+<td>Import</td>
+<td><strong>იმპორტი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Export</td>
+<td><strong>ექსპორტი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Merge</td>
+<td><strong>შერწყმა</strong></td>
+<td>Geometry operation joining selected route lines.</td>
+</tr>
+<tr>
+<td>Auto save</td>
+<td><strong>ავტოშენახვა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Undo</td>
+<td><strong>გაუქმება</strong></td>
+<td><code>Undo (FiberQ)</code> → <code>გაუქმება (FiberQ)</code>. The qualifier and brackets are kept: FiberQ's undo history is separate from QGIS's own.</td>
+</tr>
+<tr>
+<td>Redo</td>
+<td><strong>გამეორება</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Shortcut</td>
+<td><strong>მალსახმობი</strong></td>
+<td>Keyboard shortcut.</td>
+</tr>
+<tr>
+<td>Settings</td>
+<td><strong>პარამეტრები</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Interface language</td>
+<td><strong>ინტერფეისის ენა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>GeoPackage / GPKG / PostGIS / KML / KMZ / GPX / SHP / XLSX / CSV / JSON</td>
+<td><em>(untranslated)</em></td>
+<td>Format and product names stay as-is.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="10-validation-reporting-and-checks">10. Validation, reporting and checks<a class="headerlink" href="#10-validation-reporting-and-checks" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Validate project</td>
+<td><strong>პროექტის ვალიდაცია</strong></td>
+<td>The 14-rule validation engine (v1.4.0).</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td><strong>ვალიდაცია</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Health check</td>
+<td><strong>მდგომარეობის შემოწმება</strong></td>
+<td>A <strong>different</strong>, older feature from <code>Validate project</code>. The two must not collapse into one Georgian word.</td>
+</tr>
+<tr>
+<td>Rule</td>
+<td><strong>წესი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Issue</td>
+<td><strong>ხარვეზი</strong></td>
+<td>A finding produced by a rule.</td>
+</tr>
+<tr>
+<td>Severity</td>
+<td><strong>სიმძიმე</strong></td>
+<td>The Error / Warning / Info axis.</td>
+</tr>
+<tr>
+<td>Error</td>
+<td><strong>შეცდომა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Warning</td>
+<td><strong>გაფრთხილება</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Info</td>
+<td><strong>ინფორმაცია</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Report</td>
+<td><strong>ანგარიში</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Export report…</td>
+<td><strong>ანგარიშის ექსპორტი…</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Re-run</td>
+<td><strong>ხელახლა გაშვება</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Run at</td>
+<td><strong>გაშვების დრო</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Rules run / Rules skipped</td>
+<td><strong>გაშვებული წესები</strong> / <strong>გამოტოვებული წესები</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Schema version</td>
+<td><strong>სქემის ვერსია</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Recalculate lengths</td>
+<td><strong>სიგრძეების გადათვლა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>BOM report</td>
+<td><strong>მასალების ნუსხა (BOM)</strong></td>
+<td>Bill of Materials. <strong>Decided.</strong> Georgian construction practice also says <code>ხარჯთაღრიცხვა</code>, but that is a cost estimate, which this is not.</td>
+</tr>
+<tr>
+<td>Locator</td>
+<td><strong>ლოკატორი</strong></td>
+<td>QGIS's locator bar.</td>
+</tr>
+<tr>
+<td>Optical schematic (view)</td>
+<td><strong>ოპტიკური სქემა</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Color catalog</td>
+<td><strong>ფერების კატალოგი</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Preview Map</td>
+<td><strong>წინასწარი დათვალიერების რუკა</strong></td>
+<td>Opens the FiberQ preview map over a PostGIS connection. <strong>Decided</strong>; the shorter <code>გადახედვის რუკა</code> was rejected as less precise. Length is not a constraint here — it appears in a window title and a menu entry, not on a toolbar button.</td>
+</tr>
+<tr>
+<td>Hand over</td>
+<td><strong>ჩაბარება</strong></td>
+<td><code>Errors found — not ready to hand over</code>. The delivery of a finished design to the client or authority — the word a Georgian designer would use, not a generic "give".</td>
+</tr>
+<tr>
+<td>Structurally sound</td>
+<td><strong>სტრუქტურულად გამართული</strong></td>
+<td>The passing verdict on the report.</td>
+</tr>
+<tr>
+<td>Issue <em>(finding)</em></td>
+<td><strong>ხარვეზი</strong></td>
+<td>Consistent across <code>ValidationRules</code>, <code>ValidationPanel</code> and <code>ValidationReport</code>.</td>
+</tr>
+<tr>
+<td>Publish to PostGIS</td>
+<td><strong>PostGIS-ში გამოქვეყნება</strong></td>
+<td>Note the case suffix outside the product name.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-validation-engine-vocabulary">11. Validation engine vocabulary<a class="headerlink" href="#11-validation-engine-vocabulary" title="Permanent link">¶</a></h2>
+<p>Added while translating the <code>ValidationRules</code> context (batch 2).</p>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>ქართული (proposed)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Endpoint</td>
+<td><strong>ბოლო წერტილი</strong></td>
+<td>A cable's start or end vertex. The connectivity rules are all about these.</td>
+</tr>
+<tr>
+<td>Reference <em>(verb)</em></td>
+<td><strong>მითითება</strong></td>
+<td><code>Optical slack references an existing cable</code> — a stored foreign key to another feature.</td>
+</tr>
+<tr>
+<td>Identity</td>
+<td><strong>იდენტიფიკატორი</strong></td>
+<td>The <code>fiberq_uuid</code> invariant. The field name itself is never translated.</td>
+</tr>
+<tr>
+<td>Near-miss</td>
+<td><strong>ოდნავ დაცილება</strong></td>
+<td>An endpoint just outside the snapping tolerance: not connected, but clearly meant to be.</td>
+</tr>
+<tr>
+<td>Self-intersecting</td>
+<td><strong>საკუთარ თავს კვეთს</strong></td>
+<td>Used for both <code>Line crosses itself</code> and <code>Polygon boundary is self-intersecting</code> — sibling geometry faults, so one construction serves both.</td>
+</tr>
+<tr>
+<td>National grid</td>
+<td><strong>ეროვნული საკოორდინატო ბადე</strong></td>
+<td>Kept generic, as the English is.</td>
+</tr>
+<tr>
+<td>Plausible range</td>
+<td><strong>გონივრული დიაპაზონი</strong></td>
+<td>Deliberately weaker than <code>დაშვებული</code> (allowed) — the English distinguishes a <em>plausible</em> numeric range from an <em>allowed</em> value domain, and the two rule names must not sound identical.</td>
+</tr>
+<tr>
+<td>Allowed domain</td>
+<td><strong>დაშვებულ მნიშვნელობათა ნაკრები</strong> <em>(in messages: </em><em>დაშვებულთა შორის</em><em>)</em></td>
+<td>The value domain of an attribute.</td>
+</tr>
+<tr>
+<td>Migration</td>
+<td><strong>მიგრაცია</strong></td>
+<td>The schema migration runner that adds <code>fiberq_uuid</code>.</td>
+</tr>
+<tr>
+<td>Toolbar</td>
+<td><strong>ხელსაწყოთა პანელი</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="column-and-schema-names--never-translated">Column and schema names — never translated<a class="headerlink" href="#column-and-schema-names--never-translated" title="Permanent link">¶</a></h3>
+<p><code>fiberq_uuid</code>, <code>total_len_m</code>, <code>duzina_m</code>, <code>slack_m</code>, <code>duzina_km</code>, <code>duzina</code>. These are
+database column names, including the legacy Serbian ones. Translating them would make
+the message impossible to match against the actual schema.</p>
+<h2 id="open-questions-for-the-maintainer">Open questions for the maintainer<a class="headerlink" href="#open-questions-for-the-maintainer" title="Permanent link">¶</a></h2>
+<ol>
+<li><del><strong><code>List of latent elements</code></strong> — what does "latent" mean here?</del> <strong>Resolved from the
+   catalogue itself.</strong> The string carries an <code>&lt;extracomment&gt;</code> that defines it: a latent
+   element is a passive optical element sitting <em>on</em> a cable's path at a recorded
+   distance along it, between the cable's two endpoints — recorded as data rather than
+   drawn as a separate map feature; "latent" = intermediate/pass-through, not faulty or
+   dormant. Georgian: <strong>შუალედური ელემენტი</strong>. No maintainer input needed.</li>
+<li><strong><code>Object</code> vs <code>Objects</code></strong> — the English uses singular for one message-box title and
+   plural for two others, for the same feature. Confirmed as an inconsistency in the
+   English by the translator note; both will be translated as the same concept in
+   Georgian. Flagging in case the English is worth fixing upstream.</li>
+<li><strong><code>Aerial Cable</code> / <code>Underground Cable</code></strong> quick-toolbar buttons are hard-wired to the
+   <strong>backbone</strong> subtype in code, although the label does not say so. Should the Georgian
+   label say <code>მაგისტრალური</code> explicitly, or mirror the English's silence?</li>
+</ol>
+<h2 id="documentation-issues-noticed-while-preparing-this">Documentation issues noticed while preparing this<a class="headerlink" href="#documentation-issues-noticed-while-preparing-this" title="Permanent link">¶</a></h2>
+<p>Not translation problems, but worth reporting separately:</p>
+<ul>
+<li><code>docs/TRANSLATING.md</code> lists <strong>10</strong> placeholders; the catalogue currently uses <strong>34</strong>
+  distinct ones (<code>{tol}</code>, <code>{crs}</code>, <code>{fid}</code>, <code>{expected}</code>, <code>{computed}</code>, <code>{bound}</code>,
+  <code>{allowed}</code>, <code>{layers}</code>, <code>{rules}</code>, <code>{features}</code>, <code>{summary}</code> and more).</li>
+<li>The context table in <code>docs/TRANSLATING.md</code> predates v1.4.0. It omits <code>ElementNames</code>
+  (12), <code>ValidationPanel</code> (21), <code>ValidationReport</code> (28) and <code>ValidationRules</code> (45) —
+  <strong>106 strings</strong>, more than a third of the catalogue — and gives <code>FiberQPlugin</code> as 105
+  where it is now 123. Totals: 293 messages / 306 translatable slots across 15 contexts.</li>
+<li><code>fiberq/i18n/__init__.py</code> <code>_LANGUAGE_NAMES</code> has no <code>ka</code> entry, so Georgian would appear
+  in the language menu as <code>ka</code>. One line fixes it: <code>'ka': 'ქართული',</code>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../network/" class="md-footer__link md-footer__link--next" aria-label="Next: ოპტიკური ქსელი">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                ოპტიკური ქსელი
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      შიგთავსი — CC BY-SA 4.0 · FiberQ არის <a href="https://github.com/vukovicvl/fiberq">vukovicvl/fiberq</a>, GPL-3.0-or-later
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ezdanapak" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/vukovicvl/fiberq" target="_blank" rel="noopener" title="FiberQ upstream" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5A2.5 2.5 0 0 0 10.5 1 2.5 2.5 0 0 0 8 3.5V5H4a2 2 0 0 0-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7S5 16.2 3.5 16.2H2V20a2 2 0 0 0 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7s2.7 1.2 2.7 2.7V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.highlight", "search.suggest", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

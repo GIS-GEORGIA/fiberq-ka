@@ -1,44 +1,46 @@
 
 <!doctype html>
-<html lang="ka" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ოპტიკური ქსელების დაპროექტება QGIS-ში — სასწავლო ჩანაწერები, ტერმინოლოგია და თარგმანი">
+        <meta name="description" content="Fibre network design in QGIS — study notes, terminology and the Georgian translation of the FiberQ plugin">
       
       
         <meta name="author" content="Giorgi Kapanadze">
       
       
-        <link rel="canonical" href="https://kapo-toolkits.github.io/fiberq-ka/journal/">
+        <link rel="canonical" href="https://kapo-toolkits.github.io/fiberq-ka/en/translation/rules/">
       
       
-        <link rel="prev" href="../translation/batches/">
+        <link rel="prev" href="../">
       
+      
+        <link rel="next" href="../batches/">
       
       
         
-          <link rel="alternate" href="./" hreflang="ka">
+          <link rel="alternate" href="../../../translation/rules/" hreflang="ka">
         
-          <link rel="alternate" href="../en/journal/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>ჟურნალი - FiberQ ქართულად</title>
+        <title>The three rules - FiberQ in Georgian</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -57,9 +59,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,8 +86,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#ჟურნალი" class="md-skip">
-          შიგთავსზე გადასვლა
+        <a href="#სამი-წესი" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -98,7 +100,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="FiberQ ქართულად" class="md-header__button md-logo" aria-label="FiberQ ქართულად" data-md-component="logo">
+    <a href="../../" title="FiberQ in Georgian" class="md-header__button md-logo" aria-label="FiberQ in Georgian" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 11h-3.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H6c-.33 0-2-.1-2-2V8c0-1.83 1.54-2 2-2h10.18C16.6 7.16 17.7 8 19 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-1.3 0-2.4.84-2.82 2H6C4.39 4 2 5.06 2 8v1c0 2.94 2.39 4 4 4h3.18c.42 1.16 1.52 2 2.82 2s2.4-.84 2.82-2H18c.33 0 2 .1 2 2v1c0 1.83-1.54 2-2 2H7.82C7.4 16.84 6.3 16 5 16a3 3 0 0 0-3 3 3 3 0 0 0 3 3c1.3 0 2.4-.84 2.82-2H18c1.61 0 4-1.07 4-4v-1c0-2.93-2.39-4-4-4m1-7a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1M5 20a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1"/></svg>
@@ -112,13 +114,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            FiberQ ქართულად
+            FiberQ in Georgian
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ჟურნალი
+              The three rules
             
           </span>
         </div>
@@ -158,20 +160,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="ენის არჩევა">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="ka" class="md-select__link">
+            <a href="../../../translation/rules/" hreflang="ka" class="md-select__link">
               ქართული
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../en/journal/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -192,16 +194,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="ძებნა" placeholder="ძებნა" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="ძებნა">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="გასუფთავება" aria-label="გასუფთავება" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -226,7 +228,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="საცავში გადასვლა" class="md-source" data-md-component="source">
+        <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -247,7 +249,7 @@
         
           
             
-<nav class="md-tabs" aria-label="ტაბები" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -257,13 +259,13 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../../" class="md-tabs__link">
         
   
   
     
   
-  მთავარი
+  Home
 
       </a>
     </li>
@@ -276,13 +278,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../glossary/" class="md-tabs__link">
+      <a href="../../glossary/" class="md-tabs__link">
         
   
   
     
   
-  ლექსიკონი
+  Glossary
 
       </a>
     </li>
@@ -297,13 +299,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../network/" class="md-tabs__link">
+        <a href="../../network/" class="md-tabs__link">
           
   
   
     
   
-  ქსელი
+  Network
 
         </a>
       </li>
@@ -319,7 +321,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../fiberq/" class="md-tabs__link">
+        <a href="../../fiberq/" class="md-tabs__link">
           
   
   
@@ -337,17 +339,19 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../translation/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
     
   
-  თარგმანი
+  Translation
 
         </a>
       </li>
@@ -359,17 +363,15 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../journal/" class="md-tabs__link">
         
   
   
     
   
-  ჟურნალი
+  Journal
 
       </a>
     </li>
@@ -396,19 +398,19 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ნავიგაცია" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="FiberQ ქართულად" class="md-nav__button md-logo" aria-label="FiberQ ქართულად" data-md-component="logo">
+    <a href="../../" title="FiberQ in Georgian" class="md-nav__button md-logo" aria-label="FiberQ in Georgian" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 11h-3.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H6c-.33 0-2-.1-2-2V8c0-1.83 1.54-2 2-2h10.18C16.6 7.16 17.7 8 19 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-1.3 0-2.4.84-2.82 2H6C4.39 4 2 5.06 2 8v1c0 2.94 2.39 4 4 4h3.18c.42 1.16 1.52 2 2.82 2s2.4-.84 2.82-2H18c.33 0 2 .1 2 2v1c0 1.83-1.54 2-2 2H7.82C7.4 16.84 6.3 16 5 16a3 3 0 0 0-3 3 3 3 0 0 0 3 3c1.3 0 2.4-.84 2.82-2H18c1.61 0 4-1.07 4-4v-1c0-2.93-2.39-4-4-4m1-7a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1M5 20a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1"/></svg>
 
     </a>
-    FiberQ ქართულად
+    FiberQ in Georgian
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="საცავში გადასვლა" class="md-source" data-md-component="source">
+      <a href="https://github.com/kapo-Toolkits/fiberq-ka" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -428,14 +430,14 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    მთავარი
+    Home
   
 
     
@@ -455,14 +457,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ლექსიკონი
+    Glossary
   
 
     
@@ -515,14 +517,14 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../network/" class="md-nav__link ">
+            <a href="../../network/" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    ქსელი
+    Network
   
 
     
@@ -544,7 +546,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    ქსელი
+    Network
   
 
           </label>
@@ -559,14 +561,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../network/architecture/" class="md-nav__link">
+      <a href="../../network/architecture/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    არქიტექტურა
+    Architecture
   
 
     
@@ -587,14 +589,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../network/elements/" class="md-nav__link">
+      <a href="../../network/elements/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ელემენტები
+    Elements
   
 
     
@@ -615,14 +617,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../network/cables/" class="md-nav__link">
+      <a href="../../network/cables/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    კაბელები
+    Cables
   
 
     
@@ -643,14 +645,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../network/civil/" class="md-nav__link">
+      <a href="../../network/civil/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ინფრასტრუქტურა
+    Civil works
   
 
     
@@ -671,14 +673,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../network/slack/" class="md-nav__link">
+      <a href="../../network/slack/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ოპტიკური მარაგი
+    Optical slack
   
 
     
@@ -735,7 +737,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../fiberq/" class="md-nav__link ">
+            <a href="../../fiberq/" class="md-nav__link ">
               
   
   
@@ -779,14 +781,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../fiberq/toolbar/" class="md-nav__link">
+      <a href="../../fiberq/toolbar/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ხელსაწყოთა პანელი
+    Toolbar
   
 
     
@@ -807,14 +809,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../fiberq/validation/" class="md-nav__link">
+      <a href="../../fiberq/validation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ვალიდაცია
+    Validation
   
 
     
@@ -835,14 +837,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../fiberq/data-model/" class="md-nav__link">
+      <a href="../../fiberq/data-model/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    მონაცემთა მოდელი
+    Data model
   
 
     
@@ -867,6 +869,8 @@
       
   
   
+    
+  
   
   
     
@@ -884,27 +888,30 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../translation/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    თარგმანი
+    Translation
   
 
     
@@ -915,18 +922,18 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
-    თარგმანი
+    Translation
   
 
           </label>
@@ -936,69 +943,6 @@
             
               
                 
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../translation/rules/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    სამი წესი
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../translation/batches/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ბატჩები და პროგრესი
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
   
   
     
@@ -1020,7 +964,7 @@
   <span class="md-ellipsis">
     
   
-    ჟურნალი
+    The three rules
   
 
     
@@ -1038,7 +982,7 @@
   <span class="md-ellipsis">
     
   
-    ჟურნალი
+    The three rules
   
 
     
@@ -1050,7 +994,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="სარჩევი">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -1059,15 +1003,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      სარჩევი
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#2026-09-10--საიტი-აეწყო" class="md-nav__link">
+  <a href="#წესი-1---არასდროს-იცვლება" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-10 — საიტი აეწყო
+        წესი 1 — &lt;source&gt; არასდროს იცვლება
       
     </span>
   </a>
@@ -1075,10 +1019,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2026-09-09--latent-elements-ის-პასუხი-უკვე-ეწერა" class="md-nav__link">
+  <a href="#წესი-2--placeholder-ები-ზუსტად-უნდა-შენარჩუნდეს" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-09 — latent elements-ის პასუხი უკვე ეწერა
+        წესი 2 — placeholder-ები ზუსტად უნდა შენარჩუნდეს
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="წესი 2 — placeholder-ები ზუსტად უნდა შენარჩუნდეს">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ქართული-და-ბრუნვები" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ქართული და ბრუნვები
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-placeholder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        34 placeholder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#სხვა-რაც-უნდა-შენარჩუნდეს" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        სხვა, რაც უნდა შენარჩუნდეს
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#წესი-3--არაფერი-კომპილირდება" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        წესი 3 — არაფერი კომპილირდება
       
     </span>
   </a>
@@ -1086,54 +1080,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2026-09-09--color-catalog-სიმბოლოგია-არ-არის" class="md-nav__link">
+  <a href="#რაც-არ-არის-წესი-მაგრამ-მნიშვნელოვანია" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-09 — Color catalog სიმბოლოგია არ არის
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--რიცხვების-შეცდომა-და-შესწორება" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — რიცხვების შეცდომა და შესწორება
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--არც-ერთი-ენა-არ-არის-ნათარგმნი" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — არც ერთი ენა არ არის ნათარგმნი
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--object--შენობა" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — Object = შენობა
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#შაბლონი-ახალი-ჩანაწერისთვის" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        შაბლონი ახალი ჩანაწერისთვის
+        რაც არ არის წესი, მაგრამ მნიშვნელოვანია
       
     </span>
   </a>
@@ -1144,6 +1094,69 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../batches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batches and progress
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Journal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1161,7 +1174,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="სარჩევი">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -1170,15 +1183,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      სარჩევი
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#2026-09-10--საიტი-აეწყო" class="md-nav__link">
+  <a href="#წესი-1---არასდროს-იცვლება" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-10 — საიტი აეწყო
+        წესი 1 — &lt;source&gt; არასდროს იცვლება
       
     </span>
   </a>
@@ -1186,10 +1199,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2026-09-09--latent-elements-ის-პასუხი-უკვე-ეწერა" class="md-nav__link">
+  <a href="#წესი-2--placeholder-ები-ზუსტად-უნდა-შენარჩუნდეს" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-09 — latent elements-ის პასუხი უკვე ეწერა
+        წესი 2 — placeholder-ები ზუსტად უნდა შენარჩუნდეს
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="წესი 2 — placeholder-ები ზუსტად უნდა შენარჩუნდეს">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ქართული-და-ბრუნვები" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ქართული და ბრუნვები
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-placeholder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        34 placeholder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#სხვა-რაც-უნდა-შენარჩუნდეს" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        სხვა, რაც უნდა შენარჩუნდეს
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#წესი-3--არაფერი-კომპილირდება" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        წესი 3 — არაფერი კომპილირდება
       
     </span>
   </a>
@@ -1197,54 +1260,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2026-09-09--color-catalog-სიმბოლოგია-არ-არის" class="md-nav__link">
+  <a href="#რაც-არ-არის-წესი-მაგრამ-მნიშვნელოვანია" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2026-09-09 — Color catalog სიმბოლოგია არ არის
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--რიცხვების-შეცდომა-და-შესწორება" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — რიცხვების შეცდომა და შესწორება
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--არც-ერთი-ენა-არ-არის-ნათარგმნი" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — არც ერთი ენა არ არის ნათარგმნი
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2026-09-09--object--შენობა" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2026-09-09 — Object = შენობა
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#შაბლონი-ახალი-ჩანაწერისთვის" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        შაბლონი ახალი ჩანაწერისთვის
+        რაც არ არის წესი, მაგრამ მნიშვნელოვანია
       
     </span>
   </a>
@@ -1268,7 +1287,7 @@
 
 
   
-    <a href="https://github.com/kapo-Toolkits/fiberq-ka/edit/main/docs/journal.md" title="გვერდის რედაქტირება" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/kapo-Toolkits/fiberq-ka/edit/main/docs/translation/rules.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1276,59 +1295,149 @@
   
 
 
-<h1 id="ჟურნალი">ჟურნალი<a class="headerlink" href="#ჟურნალი" title="Permanent link">¶</a></h1>
-<p>ახალი ჩანაწერები ჯერ აქ ჩნდება — მერე შესაბამის გვერდზე გადადის. ახალი ზემოთ.</p>
+<h1 id="სამი-წესი">სამი წესი<a class="headerlink" href="#სამი-წესი" title="Permanent link">¶</a></h1>
+<p>FiberQ-ის <code>docs/TRANSLATING.md</code> სამ წესს „დაურღვევლად" (<em>inviolable</em>) მოიხსენიებს.
+ყველა მათგანის დარღვევა <strong>ჩუმად</strong> ხდება — შეცდომის შეტყობინება არ არსებობს.</p>
 <hr />
-<h2 id="2026-09-10--საიტი-აეწყო">2026-09-10 — საიტი აეწყო<a class="headerlink" href="#2026-09-10--საიტი-აეწყო" title="Permanent link">¶</a></h2>
-<p>MkDocs + Material. <strong>Zensical არ ავიღე</strong>: 0.0.60, <code>Development Status :: 3 - Alpha</code>,
-10 თვეში ჯერ კიდევ 0.0.x. Material for MkDocs maintenance mode-შია, მაგრამ სტაბილურია და
-<code>ka</code> შედის 69 UI ენაში. Zensical <code>mkdocs.yml</code>-ს კითხულობს, ანუ მიგრაცია მოგვიანებით
-მარტივი იქნება.</p>
-<p><strong>ძებნის შეზღუდვა:</strong> lunr-languages ქართულს არ უჭერს მხარს — სტემინგი არ მუშაობს,
-„ბოძი" ვერ იპოვის „ბოძის"-ს. ამიტომ ლექსიკონი ინგლისურ ტერმინზეა გაღებული.</p>
-<hr />
-<h2 id="2026-09-09--latent-elements-ის-პასუხი-უკვე-ეწერა">2026-09-09 — <code>latent elements</code>-ის პასუხი უკვე ეწერა<a class="headerlink" href="#2026-09-09--latent-elements-ის-პასუხი-უკვე-ეწერა" title="Permanent link">¶</a></h2>
-<p>მეინთეინერს კითხვა დავუსვი <code>List of latent elements</code>-ზე, მაგრამ პასუხი კატალოგის
-<code>&lt;extracomment&gt;</code>-ში იყო. მიზეზი: ლექსიკონის მომზადებისას მხოლოდ UI-ჯგუფების შენიშვნები
-წავიკითხე, <code>FiberQPlugin</code>-ისა — არა.</p>
-<p>→ <strong>შუალედური ელემენტი</strong>: პასიური ელემენტი, რომელიც კაბელის ტრასაზე ზის ჩაწერილი
-მანძილით, მონაცემად და არა ცალკე დახაზული ობიექტად.</p>
-<p><strong>წესი, რომელიც ავიღე:</strong> ყველა შენიშვნა ჯერ წავიკითხო, მერე დავსვა კითხვები.</p>
-<hr />
-<h2 id="2026-09-09--color-catalog-სიმბოლოგია-არ-არის">2026-09-09 — <code>Color catalog</code> სიმბოლოგია არ არის<a class="headerlink" href="#2026-09-09--color-catalog-სიმბოლოგია-არ-არის" title="Permanent link">¶</a></h2>
-<p>QGIS-ის კონტექსტში „Color catalog" ბუნებრივად ფერების პალიტრად იკითხება. სინამდვილეში ეს
-<strong>ბოჭკოს ფერთა კოდია</strong> — TIA-598/IEC თანმიმდევრობა, რომლითაც კაბელში თითოეული მილაკი და
-ბოჭკო იდენტიფიცირდება.</p>
-<p><strong>შესამოწმებელი:</strong> FiberQ რომელ სტანდარტს იყენებს — TIA-598-ს თუ IEC-ს? კოდში ჯერ არ
-მიყურებია.</p>
-<hr />
-<h2 id="2026-09-09--რიცხვების-შეცდომა-და-შესწორება">2026-09-09 — რიცხვების შეცდომა და შესწორება<a class="headerlink" href="#2026-09-09--რიცხვების-შეცდომა-და-შესწორება" title="Permanent link">¶</a></h2>
-<p><code>&lt;message numerus="yes"&gt;</code> ჩემს დათვლაში არ ხვდებოდა. სულ <strong>306</strong> სტრიქონია, არა 293.
-რადგან არასწორი რიცხვები issue #43-ში უკვე გამოქვეყნებული იყო, შესწორება დავდე.</p>
-<hr />
-<h2 id="2026-09-09--არც-ერთი-ენა-არ-არის-ნათარგმნი">2026-09-09 — არც ერთი ენა არ არის ნათარგმნი<a class="headerlink" href="#2026-09-09--არც-ერთი-ენა-არ-არის-ნათარგმნი" title="Permanent link">¶</a></h2>
-<p><code>fiberq_fr.ts</code> — 0/306. <code>fiberq_sr.ts</code> — 3/306 (სატესტო სტრიქონები). ავტორი სერბია და
-საკუთარი ენაც არ უთარგმნია.</p>
-<p>ჩვენი თარგმანი <strong>პირველი რეალური</strong> იქნება. ეს ნიშნავს, რომ i18n პაიპლაინი ცოცხალ
-თარგმანზე გატესტილი არ არის — პირველი კატალოგი აუცილებლად ამოატივტივებს ხარვეზებს.
-პირველი უკვე ვიპოვე: <code>_LANGUAGE_NAMES</code>-ში <code>ka</code> არ არის.</p>
-<hr />
-<h2 id="2026-09-09--object--შენობა">2026-09-09 — <code>Object</code> = შენობა<a class="headerlink" href="#2026-09-09--object--შენობა" title="Permanent link">¶</a></h2>
-<p>ყველაზე მნიშვნელოვანი ტერმინოლოგიური აღმოჩენა. FiberQ-ის <code>Object</code> სერბული <code>objekat</code>-ის
-კვალია და <strong>შენობას</strong> ნიშნავს — ადასტურებს შრე, რომელშიც იწერება (სართულები, სარდაფი,
-ქუჩა, სახლის ნომერი).</p>
-<p>ამავე დროს QGIS-ის ქართული <code>feature</code>-ს თარგმნის როგორც <strong>ობიექტს</strong>.</p>
-<p>→ <code>Feature → ობიექტი</code>, <code>Object → შენობა</code>. კონტრინტუიციურია, მაგრამ სწორი.</p>
-<hr />
-<h2 id="შაბლონი-ახალი-ჩანაწერისთვის">შაბლონი ახალი ჩანაწერისთვის<a class="headerlink" href="#შაბლონი-ახალი-ჩანაწერისთვის" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gu">## თარიღი — სათაური</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>რა გავარკვიე / რა შემეშალა.
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="gs">**წყარო:**</span> კოდი / <span class="sb">`&lt;extracomment&gt;`</span> / დოკუმენტაცია / ჩემი დასკვნა
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="gs">**შესამოწმებელი:**</span> …
+<h2 id="წესი-1---არასდროს-იცვლება">წესი 1 — <code>&lt;source&gt;</code> არასდროს იცვლება<a class="headerlink" href="#წესი-1---არასდროს-იცვლება" title="Permanent link">¶</a></h2>
+<p>ინგლისური ტექსტი არის <strong>lookup key</strong>. გაშვებული პლაგინი ზუსტად ამ ფრაზის თარგმანს ითხოვს.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">&lt;!-- სწორი --&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">&lt;source&gt;</span>Place<span class="w"> </span>Manhole<span class="nt">&lt;/source&gt;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nt">&lt;translation&gt;</span>ჭის<span class="w"> </span>განთავსება<span class="nt">&lt;/translation&gt;</span>
 </code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">&lt;!-- არასწორი — ეს სტრიქონი აღარასდროს ითარგმნება --&gt;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nt">&lt;source&gt;</span>ჭის<span class="w"> </span>განთავსება<span class="nt">&lt;/source&gt;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nt">&lt;translation&gt;</span>ჭის<span class="w"> </span>განთავსება<span class="nt">&lt;/translation&gt;</span>
+</code></pre></div>
+<p>ერთი სიმბოლოც კი — ზედმეტი ჰარიც — და ფრაზა ჩუმად ბრუნდება ინგლისურზე.</p>
+<div class="admonition tip">
+<p class="admonition-title">თუ ინგლისურში შეცდომა შენიშნე</p>
+<p>ეს რეალური და სასარგებლო აღმოჩენაა — მაგრამ <code>.ts</code> ფაილში კი არ სწორდება, არამედ
+issue იხსნება.</p>
+</div>
+<hr />
+<h2 id="წესი-2--placeholder-ები-ზუსტად-უნდა-შენარჩუნდეს">წესი 2 — placeholder-ები ზუსტად უნდა შენარჩუნდეს<a class="headerlink" href="#წესი-2--placeholder-ები-ზუსტად-უნდა-შენარჩუნდეს" title="Permanent link">¶</a></h2>
+<p>ფიგურულ ფრჩხილებში ჩასმული მარკერები, რომლებსაც პლაგინი გაშვებისას რეალური
+მნიშვნელობებით ცვლის.</p>
+<p><strong>თარგმანში უნდა გამოჩნდეს ზუსტად ისე, როგორც ინგლისურში</strong> — ფრჩხილებით, პატარა ასოებით.
+<strong>გადაადგილება შეიძლება</strong>, გადარქმევა/თარგმნა/წაშლა — არა.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>source:   Imported {count} points into layer &#39;{layer}&#39;!
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>✅ სწორი: &#39;{layer}&#39; შრეში იმპორტირებულია {count} წერტილი!
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>❌ არა:   &#39;{შრე}&#39; შრეში იმპორტირებულია {რაოდენობა} წერტილი!
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>❌ არა:   შრეში იმპორტირებულია წერტილები!
+</code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">წაშლილი placeholder უარესია, ვიდრე უთარგმნელი სტრიქონი</p>
+<p>პლაგინი შეიძლება შეცდომას აგდებდეს, როცა ცარიელი ადგილის შევსებას შეეცდება.
+კოდში ამის დამცავიც კია — <code>safe_format()</code>, რომელიც ინგლისურზე ბრუნდება, თუ თარგმანი
+ვერ ფორმატირდა. მაგრამ მაშინ მომხმარებელი ინგლისურ წარწერას ხედავს.</p>
+</div>
+<h3 id="ქართული-და-ბრუნვები">ქართული და ბრუნვები<a class="headerlink" href="#ქართული-და-ბრუნვები" title="Permanent link">¶</a></h3>
+<p>ყველაზე ხშირი ხაფანგი ჩვენთვის. დაბოლოება ფრჩხილების <strong>გარეთ</strong> ჯდება:</p>
+<table>
+<thead>
+<tr>
+<th>ბრუნვა</th>
+<th>მაგალითი</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ვითარებითი</td>
+<td><code>'{layer}'-ში</code></td>
+</tr>
+<tr>
+<td>მიცემითი</td>
+<td><code>{crs}-სთვის</code></td>
+</tr>
+<tr>
+<td>ნათესაობითი</td>
+<td><code>ODF-ის</code></td>
+</tr>
+<tr>
+<td>მოქმედებითი</td>
+<td><code>{distance}-ითაა</code></td>
+</tr>
+<tr>
+<td>ვისგან</td>
+<td><code>{target}-იდან</code></td>
+</tr>
+</tbody>
+</table>
+<p>ასე placeholder ბაიტ-იდენტური რჩება და წინადადებაც ბუნებრივად იბრუნება.</p>
+<h3 id="34-placeholder">34 placeholder<a class="headerlink" href="#34-placeholder" title="Permanent link">¶</a></h3>
+<p><code>{allowed}</code> <code>{bound}</code> <code>{computed}</code> <code>{count}</code> <code>{crs}</code> <code>{details}</code> <code>{distance}</code> <code>{expected}</code>
+<code>{ext}</code> <code>{features}</code> <code>{fid}</code> <code>{field}</code> <code>{fields}</code> <code>{format}</code> <code>{km}</code> <code>{label}</code> <code>{language}</code>
+<code>{layer}</code> <code>{layer_id}</code> <code>{layers}</code> <code>{list}</code> <code>{name}</code> <code>{new}</code> <code>{old}</code> <code>{path}</code> <code>{rules}</code>
+<code>{scope}</code> <code>{shortcut}</code> <code>{shown}</code> <code>{stored}</code> <code>{summary}</code> <code>{target}</code> <code>{tol}</code> <code>{total}</code>
+<code>{value}</code></p>
+<p>პლუს Qt-ის საკუთარი <strong><code>%n</code></strong> მთვლელი 13 <code>numerus</code> სტრიქონში.</p>
+<h3 id="სხვა-რაც-უნდა-შენარჩუნდეს">სხვა, რაც უნდა შენარჩუნდეს<a class="headerlink" href="#სხვა-რაც-უნდა-შენარჩუნდეს" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>ელემენტი</th>
+<th>მაგალითი</th>
+<th>რატომ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>\n</code></td>
+<td><code>Language set to {language}.\n\n…</code></td>
+<td>ხაზის გადატანა</td>
+</tr>
+<tr>
+<td><code>…</code> (U+2026)</td>
+<td><code>Add drawing…</code></td>
+<td>Qt-ის კონვენცია: „იხსნება დიალოგი"</td>
+</tr>
+<tr>
+<td><code>...</code> (სამი ASCII წერტილი)</td>
+<td><code>Export selected...</code></td>
+<td>კატალოგში ორივე სტილია — თითოეულს თავისი</td>
+</tr>
+<tr>
+<td><code>:</code></td>
+<td><code>Severity:</code></td>
+<td>ფილტრის წარწერა</td>
+</tr>
+<tr>
+<td><code>;;</code></td>
+<td><code>Images (*.jpg);;All files (*.*)</code></td>
+<td>Qt-ის ფაილ-ფილტრის გამყოფი</td>
+</tr>
+<tr>
+<td><code>-&gt;</code></td>
+<td><code>Project -&gt; Properties -&gt; CRS</code></td>
+<td>მენიუს გზა</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="წესი-3--არაფერი-კომპილირდება">წესი 3 — არაფერი კომპილირდება<a class="headerlink" href="#წესი-3--არაფერი-კომპილირდება" title="Permanent link">¶</a></h2>
+<p><code>.qm</code> ფაილები არის ბინარული კატალოგები, რომლებსაც პლაგინი რეალურად კითხულობს.
+<strong>მათ მეინთეინერი აგენერირებს.</strong></p>
+<ul>
+<li>Qt Linguist-ში: <strong>File → Save</strong> ✅</li>
+<li>Qt Linguist-ში: <strong>File → Release</strong> ❌ <strong>არასდროს</strong></li>
+<li>უკან მიდის <strong>მხოლოდ <code>.ts</code></strong></li>
+</ul>
+<hr />
+<h2 id="რაც-არ-არის-წესი-მაგრამ-მნიშვნელოვანია">რაც არ არის წესი, მაგრამ მნიშვნელოვანია<a class="headerlink" href="#რაც-არ-არის-წესი-მაგრამ-მნიშვნელოვანია" title="Permanent link">¶</a></h2>
+<p><strong>მანქანური თარგმანი ნედლად არ იგზავნება.</strong> <code>CONTRIBUTING.md</code> ხსნის რატომ: ძრავები
+ბოჭკოს ტერმინოლოგიას თავდაჯერებულად და თანმიმდევრულად ამახინჯებენ. პირველ დრაფტად
+გამოყენება, რომელსაც შემდეგ თვითონ ასწორებ, ნორმალურია; ნედლი გამოსავალის გაგზავნა — არა,
+რადგან <strong>დასრულებულად გამოიყურება და გამოუსადეგარია</strong>.</p>
+<p><strong><code>&lt;extracomment&gt;</code> ჯერ იკითხება, მერე ითარგმნება.</strong> 95 სტრიქონს აქვს მეინთეინერის
+შენიშვნა. ისინი არსებობს იმიტომ, რომ ინგლისური მარტო ორაზროვანია.</p>
+<p><strong>ეჭვის შემთხვევაში — კითხე, ნუ გამოიცნობ.</strong></p>
+<blockquote>
+<p>a flagged gap is more useful than a confident wrong term</p>
+</blockquote>
+<p>უთარგმნელი სტრიქონი აშკარად ინგლისურია და აშკარად მოსაგვარებელი. არასწორი ტერმინი კი
+დასრულებულად გამოიყურება, გადადის შემდეგ ნამუშევარში, მიდის მომხმარებლამდე და შეცდომაში
+შეჰყავს ინჟინრები, რომლებიც მას ენდობიან.</p>
 
 
 
@@ -1352,7 +1461,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  თავფურცელზე დაბრუნება
+  Back to top
 </button>
         
       </main>
@@ -1364,21 +1473,37 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../translation/batches/" class="md-footer__link md-footer__link--prev" aria-label="წინა: ბატჩები და პროგრესი">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: The translation project">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
             </div>
             <div class="md-footer__title">
               <span class="md-footer__direction">
-                წინა
+                Previous
               </span>
               <div class="md-ellipsis">
-                ბატჩები და პროგრესი
+                The translation project
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../batches/" class="md-footer__link md-footer__link--next" aria-label="Next: Batches and progress">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Batches and progress
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
@@ -1437,10 +1562,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.highlight", "search.suggest", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u10d9\u10dd\u10de\u10d8\u10e0\u10d4\u10d1\u10e3\u10da\u10d8\u10d0", "clipboard.copy": "\u10d9\u10dd\u10de\u10d8\u10e0\u10d4\u10d1\u10d0", "search.result.more.one": "\u10d9\u10d8\u10d3\u10d4\u10d5 1 \u10d0\u10db \u10d2\u10d5\u10d4\u10e0\u10d3\u10d6\u10d4", "search.result.more.other": "\u10d9\u10d8\u10d3\u10d4\u10d5 # \u10d0\u10db \u10d2\u10d5\u10d4\u10e0\u10d3\u10d6\u10d4", "search.result.none": "\u10d3\u10dd\u10d9\u10e3\u10db\u10d4\u10dc\u10e2\u10d8 \u10d5\u10d4\u10e0 \u10db\u10dd\u10d8\u10eb\u10d4\u10d1\u10dc\u10d0", "search.result.one": "\u10db\u10dd\u10d8\u10eb\u10d4\u10d1\u10dc\u10d0 1 \u10d3\u10dd\u10d9\u10e3\u10db\u10d4\u10dc\u10e2\u10d8", "search.result.other": "\u10db\u10dd\u10d8\u10eb\u10d4\u10d1\u10dc\u10d0 # \u10d3\u10dd\u10d9\u10e3\u10db\u10d4\u10dc\u10e2\u10d8", "search.result.placeholder": "\u10e9\u10d0\u10ec\u10d4\u10e0\u10d4 \u10eb\u10d4\u10d1\u10dc\u10d8\u10e1 \u10d3\u10d0\u10e1\u10d0\u10ec\u10e7\u10d4\u10d1\u10d0\u10d3", "search.result.term.missing": "Missing", "select.version": "\u10d5\u10d4\u10e0\u10e1\u10d8\u10d8\u10e1 \u10d0\u10e0\u10e9\u10d4\u10d5\u10d0"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.highlight", "search.suggest", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
